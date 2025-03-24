@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi papi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(`1p.jpag);
+            background-size: auto;
+            color: rgb(10, 1, 14);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            margin: 100px auto;
+            padding: 30px;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0 0 20x #752f2f;
+        }
+
+        h1 {
+            color: #ffd700
+        }
+
+        p {
+            font-size: 18px
+        }
+
+        button {
+            background-color: #ffd700;
+            color: black;
+            padding: 10p 20px;
+            margin-top: 20x;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16 px;
+        }
+
+        button:hover {
+            background-color: ffa500;
+        }
+    </style>
+</head>
+<body>
+
+    <audio id="music"autoplay loop>
+        <source src="Antonio Alejandro - Viejo mi querido viejo.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container">
+        <h1>feliz dia del padre</h1>
+        <img src="kris.jpg" alt="Feliz dia del Padre" width="500p">
+        <p> Querido papa<br>En este dia tan especial, quiero agradecerte por todo lo que haces por mi. Eres mi guia,mi
+            apoyo y mi heroe.
+            Gracias por estar siempre a mi lado, por enseñarme valores y por llenar mi vida de amor y alegria.
+         </p>
+         <button onclick="playMusic()">¡Reproducir Musica!</button>
+    </div>
+
+    <script>
+        function playmusic() {
+            const muic = docuent.getElementById('music');
+            music.play();
+            alert('¡Disfruta la musica y Feliz Dia del Padre!');
+        }
+    <script>   
+
+</body>
+</html>
